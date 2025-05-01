@@ -1,0 +1,36 @@
+name: mobatv03
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.0
+
+# Configuração da splash nativa
+flutter_native_splash:
+  color: "#ffffff"           # Cor de fundo da splash screen
+  image: assets/images/logo.PNG  # Caminho da imagem (ícone) a ser usada
+  android: true              # Habilita para Android
+  ios: true                  # Habilita para iOS
+  web: true                  # Habilita para Web
+  fullscreen: true           # Tela cheia
+  android_gravity: center    # Alinha a imagem ao centro no Android
+
+flutter:
+  uses-material-design: true
+
+  # Declare aqui seus assets (imagens, ícones, etc.)
+  assets:
+    - assets/images/logo.PNG
