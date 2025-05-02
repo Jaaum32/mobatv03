@@ -58,7 +58,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               ),
               const SizedBox(height: 10),
               const Text(
-                'Estamos prontos para ajudar você no aprendizado de línguas.',
+                'Estamos prontos para ajudar você no aprendizado de idiomas.',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16, color: Colors.grey),
               ),
