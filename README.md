@@ -97,6 +97,5 @@ flutter run
 ```
 
 ## Demonstração
-<div style="display: flex; justify-content: center;">
-  <img src="screenshots/demo.gif" alt="Demonstração da Lista Expansível" width="30%">
-</div>
+<img src="screenshots/demo.gif" alt="Demonstração da Lista Expansível" width="300">
+
